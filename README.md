@@ -1,6 +1,6 @@
 # Vision Based Quality Inspection of Medicine Packages using 3 DOF SCARA Robot
 
-![SCARA Robot](images/scara_model.png)
+![SCARA Robot](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/4dof-scara-robotic-arm-500x500.png)
 
 ---
 
