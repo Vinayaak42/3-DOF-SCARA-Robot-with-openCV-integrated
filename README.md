@@ -1,6 +1,6 @@
 # Vision Based Quality Inspection of Medicine Packages using 3 DOF SCARA Robot
 
-![SCARA Robot](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/4dof-scara-robotic-arm-500x500.png)
+![SCARA Robot](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/SCARA.png)
 
 ---
 
@@ -48,6 +48,12 @@ This project introduces an **AI-powered quality inspection system** that:
 | **Simulation**      | MATLAB                                           |
 
 ---
+# 3D model of SCARA Robot in Solidworks
+![3D model](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/Scara%203D%20model.png)
+
+# Circuit Diagram 
+![Circuit Diagram](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/Circuit%20Diagram.png)
+
 
 ## 🎥 Demo
 ![Live Demo GIF](images/demo.gif)  
@@ -77,4 +83,5 @@ This project introduces an **AI-powered quality inspection system** that:
 
 ---
 
-## 📂 Repository Structure
+## YOLO V5 Code in Raspberry Pi 
+
