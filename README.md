@@ -55,22 +55,6 @@ This project introduces an **AI-powered quality inspection system** that:
 ![Circuit Diagram](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/Circuit%20Diagram.png)
 
 
-## 🎥 Demo
-![Live Demo](eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2RwMHJrc2kzODRvOTcuY2xvdWRmcm9udC5uZXRcL2NvbnZlcnRlZFwvdmlkZW9zXC81YTVjY2ZhNi04NTE3LTNlZjMtOTFhOC03OTZmY2YzYTMwZWZfY3VzdG9tLm1wNCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NTM2Nzc0N319fV19)  
-
----
-
-## 📐 System Architecture
-
-```mermaid
-flowchart LR
-    A[Camera Module] -->|Captures Image| B[Raspberry Pi 4]
-    B -->|Runs YOLOv5| C[Defect Detection]
-    C -->|Defect Info| D[Control Unit (Motor Driver)]
-    D -->|Control Signals| E[SCARA Robot]
-    E -->|Pick & Place| F[Output: Conveyor / Rejection Bin]
-    B -->|Sends Status| G[GUI Monitoring Panel]
-
 
 **Workflow:**
 1. Camera captures high-resolution images of medicine boxes.
@@ -401,6 +385,8 @@ if __name__ == '__main__':
 opt = parse_opt() 
 main(opt) 
 ```
+
+
 # Real time input using YOLO V5 model in Raspberry Pi
 ![Real_Yolo](https://github.com/Vinayaak42/3-DOF-SCARA-Robot-with-openCV-integrated/blob/main/yolo%20v5%20in%20raspberry%20pi.png)
 
